@@ -1,0 +1,39 @@
+.commonStyle{
+    display: flex;
+    flex-direction: column;
+
+justify-content: space-between;
+    align-items: center;
+   /* width: 600px; */
+    /* height: auto; */
+    background-color: gainsboro;
+/* border: 6px solid tomato; */
+border-radius: 20px;
+object-fit: contain;
+padding: 20px;
+margin: 20px;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+}
+
+.price{
+border-radius: 20px;
+background-color: green;
+color: white;
+padding: 10px;
+margin: 10px;
+font-size: 20px;
+}
+
+
+.display{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+
+  
+}
